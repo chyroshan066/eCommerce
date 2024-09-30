@@ -1,6 +1,15 @@
 # Ecommerce
 
-Understanding the concept of API fetching by integrating <a href = "https://console.cloud.google.com/apis/library/maps-backend.googleapis.com?project=maps-api-437207">"Maps Javascript API"</a> provided by <a href="https://console.cloud.google.com/">Google Clouds</a>.
+Responsive multipage Ecommerce website using HTML, CSS and JavaScript.
+
+## Objectives
+
+* To build amazing professional and responsive website
+* To learn the fundamentals of web design
+* To learn the concept of flexbox and CSS Grid for layout
+* To learn the CSS techniques to create stunning designs and effects
+* To use common components and layout patterns
+* To learn responsive design using media queries
 
 ## Installing / Getting started
 
