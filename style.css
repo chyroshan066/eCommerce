@@ -1,0 +1,140 @@
+ @import url('https://fonts.cdnfonts.com/css/spartan');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;                                         
+ }
+
+ h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+ }
+
+ h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+ }
+
+ h4{
+    font-size: 20px;
+    color: #222;
+ }
+
+ h6{
+    font-size: 16px;
+    font-weight: 700;
+ }
+
+ p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+ }
+
+ .section-p1{
+    padding: 40px, 80px;
+ }
+
+ .section-m1{
+    margin: 40px 0;
+ }
+                
+ body{
+    width: 100%;
+ }
+
+ /* Header start */
+ 
+ #header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 1;
+    position: sticky;   /* position only becomes sticky after defining top and bottom */
+    top: 0;
+    left: 0;
+ }
+ 
+ #header div #navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+ }
+
+ #navbar li a{
+    text-decoration: none;  /* for removing underline from link */
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+ }
+
+ #navbar li a:hover,
+ #navbar li a.active{
+    color: #088178;
+ }
+
+ /* after is a pseudo element */
+ #navbar li a:hover::after,
+ #navbar li a.active::after{
+    content: "";  /* after using pseudo element content: "" style must be written (i.e content must be made empty)*/
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;  /* position:absolute can only be used once you make the parent tag/element absolute */
+    bottom: -4px;
+    left: 20px;
+ }
+
+ /* Hero section */
+
+ #hero{
+    background-image: url("./img/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+
+ #hero h4{
+    padding-bottom: 15px;
+ }
+
+ #hero h1{
+    color: #088178;
+ }
+
+ #hero button{
+    border: none;
+    background-image: url("img/button.png");
+    background-color: transparent;
+    color: #088178;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    font-size: 15px;
+ }
+
+ .rough{
+    height: 60vw;
+    background-color: yellow;
+ }
