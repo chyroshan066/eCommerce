@@ -15,6 +15,10 @@ Responsive multipage Ecommerce website using HTML, CSS and JavaScript.
 ## Installing / Getting started
 
 A quick introduction of the minimal setup you need to get it running.
+<br>In order to get pro font awesome icons for free, add the following link tag inside your head element
+``` js
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+```
 
 [comment]: # "## Developing
 In order to develop the project, follow these steps"
